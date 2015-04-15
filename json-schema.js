@@ -20,7 +20,7 @@ var attrValueMap = {
 
 // This is the JSONSchema that could be used to validate the client JSONSchema
 // Can be found here:  http://json-schema.org/schema
-var metaJSONSchema = {
+var validationSchema = {
     "id": "http://json-schema.org/draft-04/schema#",
     "$schema": "http://json-schema.org/draft-04/schema#",
     "description": "Core schema meta-schema",
@@ -173,7 +173,7 @@ var metaJSONSchema = {
 
 // exported out of package
 JSONSchema = function(schema, options) {
-    // Validate schema against metaJSONSchema
+    // Validate schema against validationSchema
     // Do stuff with options
     this._schema = schema;
 };
