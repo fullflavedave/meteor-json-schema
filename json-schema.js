@@ -192,7 +192,7 @@ JSONSchema.prototype.toSimpleSchema = function toSimpleSchema(jSchema) {
     });
 
     //console.log('original JSONSchema = ' + JSON.stringify(this._schema, null, 4));
-    //console.log('new SimpleSchema = ' + JSON.stringify(sSchemaJSON, null, 4));
+    //console.log('new SimpleSchema JSON = ' + JSON.stringify(sSchemaJSON, null, 4));
 
     return new SimpleSchema(sSchemaJSON);
 };
