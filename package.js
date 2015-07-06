@@ -1,6 +1,6 @@
 Package.describe({
   name: 'fullflavedave:json-schema',
-  version: '0.0.1',
+  version: '0.0.2',
   summary: 'Use JSONSchema definitions with collection2 and autoform',
   git: 'https://github.com/fullflavedave/meteor-json-schema.git',
   documentation: 'README.md'
